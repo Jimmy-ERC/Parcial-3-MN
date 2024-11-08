@@ -6,20 +6,664 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>973</width>
+    <height>663</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ingrese la función f&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtFuncion">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>0</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>50</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Ingrese h:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>100</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Ingrese x:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtH">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>50</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtX">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>100</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>200</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Atras f'&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>400</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Atras f&lt;span style=&quot; vertical-align:super;&quot;&gt;(3)&lt;/span&gt;&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>230</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Centro f'&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>260</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adelante f'&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>300</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Atras f''&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>360</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adelante f''&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>330</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Centro f''&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>430</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Centro f&lt;span style=&quot; vertical-align:super;&quot;&gt;(3)&lt;/span&gt;&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>460</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adelante f&lt;span style=&quot; vertical-align:super;&quot;&gt;(3)&lt;/span&gt;&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>530</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Centro f&lt;span style=&quot; vertical-align:super;&quot;&gt;(4)&lt;/span&gt;&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>500</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Atras f&lt;span style=&quot; vertical-align:super;&quot;&gt;(4)&lt;/span&gt;&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>560</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adelante f&lt;span style=&quot; vertical-align:super;&quot;&gt;(4)&lt;/span&gt;&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>291</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>144</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Xᵢ</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>f₍ₓ₎</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="lblPrimeraDerivadaAtras">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>200</y>
+      <width>521</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>[Resultado]</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblPrimeraDerivadaCentro">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>230</y>
+      <width>521</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>[Resultado]</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblPrimeraDerivadaAdelante">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>260</y>
+      <width>521</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>[Resultado]</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblSegundaDerivadaAtras">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>300</y>
+      <width>521</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>[Resultado]</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblSegundaDerivadaCentro">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>330</y>
+      <width>521</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>[Resultado]</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblSegundaDerivadaAdelante">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>360</y>
+      <width>521</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>[Resultado]</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblTerceraDerivadaAtras">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>400</y>
+      <width>521</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>[Resultado]</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblTerceraDerivadaCentro">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>430</y>
+      <width>521</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>[Resultado]</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblTerceraDerivadaAdelante">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>460</y>
+      <width>521</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>[Resultado]</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblCuartaDerivadaAtras">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>500</y>
+      <width>521</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>[Resultado]</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblCuartaDerivadaCentro">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>530</y>
+      <width>521</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>[Resultado]</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblCuartaDerivadaAdelante">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>560</y>
+      <width>521</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>[Resultado]</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCalcularDerivadas">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>40</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Calcular derivadas</string>
+    </property>
+   </widget>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>973</width>
      <height>33</height>
     </rect>
    </property>
