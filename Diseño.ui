@@ -13,12 +13,15 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(44, 62, 80);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>0</y>
+      <x>30</x>
+      <y>20</y>
       <width>201</width>
       <height>31</height>
      </rect>
@@ -30,6 +33,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(236, 240, 241);</string>
+    </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ingrese la función f&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
@@ -38,7 +44,7 @@
     <property name="geometry">
      <rect>
       <x>220</x>
-      <y>0</y>
+      <y>20</y>
       <width>221</width>
       <height>31</height>
      </rect>
@@ -53,12 +59,17 @@
     <property name="toolTip">
      <string/>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-color: rgb(236, 240, 241);
+color: rgb(45, 45, 45);</string>
+    </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
       <x>130</x>
-      <y>50</y>
+      <y>70</y>
       <width>91</width>
       <height>31</height>
      </rect>
@@ -69,6 +80,9 @@
       <pointsize>12</pointsize>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(236, 240, 241);</string>
     </property>
     <property name="text">
      <string>Ingrese h:</string>
@@ -78,7 +92,7 @@
     <property name="geometry">
      <rect>
       <x>130</x>
-      <y>100</y>
+      <y>120</y>
       <width>91</width>
       <height>31</height>
      </rect>
@@ -89,6 +103,9 @@
       <pointsize>12</pointsize>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(236, 240, 241);</string>
     </property>
     <property name="text">
      <string>Ingrese x:</string>
@@ -98,7 +115,7 @@
     <property name="geometry">
      <rect>
       <x>220</x>
-      <y>50</y>
+      <y>70</y>
       <width>221</width>
       <height>31</height>
      </rect>
@@ -112,13 +129,18 @@
     </property>
     <property name="toolTip">
      <string/>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-color: rgb(236, 240, 241);
+color: rgb(45, 45, 45);</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="txtX">
     <property name="geometry">
      <rect>
       <x>220</x>
-      <y>100</y>
+      <y>120</y>
       <width>221</width>
       <height>31</height>
      </rect>
@@ -133,11 +155,16 @@
     <property name="toolTip">
      <string/>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-color: rgb(236, 240, 241);
+color: rgb(0, 0, 0);</string>
+    </property>
    </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>350</x>
+      <x>400</x>
       <y>200</y>
       <width>91</width>
       <height>31</height>
@@ -149,6 +176,9 @@
       <pointsize>12</pointsize>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(236, 240, 241);</string>
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Atras f'&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -157,7 +187,7 @@
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>390</x>
       <y>400</y>
       <width>101</width>
       <height>31</height>
@@ -170,6 +200,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(236, 240, 241);</string>
+    </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Atras f&lt;span style=&quot; vertical-align:super;&quot;&gt;(3)&lt;/span&gt;&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
@@ -177,7 +210,7 @@
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>390</x>
       <y>230</y>
       <width>101</width>
       <height>31</height>
@@ -190,6 +223,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(236, 240, 241);</string>
+    </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Centro f'&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
@@ -197,7 +233,7 @@
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>370</x>
       <y>260</y>
       <width>121</width>
       <height>31</height>
@@ -210,6 +246,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(236, 240, 241);</string>
+    </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adelante f'&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
@@ -217,7 +256,7 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>350</x>
+      <x>390</x>
       <y>300</y>
       <width>91</width>
       <height>31</height>
@@ -230,6 +269,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(236, 240, 241);</string>
+    </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Atras f''&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
@@ -237,7 +279,7 @@
    <widget class="QLabel" name="label_11">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>370</x>
       <y>360</y>
       <width>121</width>
       <height>31</height>
@@ -250,6 +292,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(236, 240, 241);</string>
+    </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adelante f''&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
@@ -257,7 +302,7 @@
    <widget class="QLabel" name="label_12">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>390</x>
       <y>330</y>
       <width>101</width>
       <height>31</height>
@@ -270,6 +315,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(236, 240, 241);</string>
+    </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Centro f''&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
@@ -277,7 +325,7 @@
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>330</x>
+      <x>380</x>
       <y>430</y>
       <width>111</width>
       <height>31</height>
@@ -290,6 +338,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(236, 240, 241);</string>
+    </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Centro f&lt;span style=&quot; vertical-align:super;&quot;&gt;(3)&lt;/span&gt;&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
@@ -297,7 +348,7 @@
    <widget class="QLabel" name="label_10">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>360</x>
       <y>460</y>
       <width>131</width>
       <height>31</height>
@@ -310,6 +361,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(236, 240, 241);</string>
+    </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adelante f&lt;span style=&quot; vertical-align:super;&quot;&gt;(3)&lt;/span&gt;&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
@@ -317,7 +371,7 @@
    <widget class="QLabel" name="label_13">
     <property name="geometry">
      <rect>
-      <x>330</x>
+      <x>380</x>
       <y>530</y>
       <width>111</width>
       <height>31</height>
@@ -330,6 +384,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(236, 240, 241);</string>
+    </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Centro f&lt;span style=&quot; vertical-align:super;&quot;&gt;(4)&lt;/span&gt;&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
@@ -337,7 +394,7 @@
    <widget class="QLabel" name="label_14">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>390</x>
       <y>500</y>
       <width>101</width>
       <height>31</height>
@@ -350,6 +407,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(236, 240, 241);</string>
+    </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Atras f&lt;span style=&quot; vertical-align:super;&quot;&gt;(4)&lt;/span&gt;&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
@@ -357,7 +417,7 @@
    <widget class="QLabel" name="label_15">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>360</x>
       <y>560</y>
       <width>131</width>
       <height>31</height>
@@ -370,6 +430,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(236, 240, 241);</string>
+    </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adelante f&lt;span style=&quot; vertical-align:super;&quot;&gt;(4)&lt;/span&gt;&lt;span style=&quot; vertical-align:sub;&quot;&gt;(x)&lt;/span&gt;:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
@@ -377,7 +440,7 @@
    <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>50</x>
       <y>190</y>
       <width>291</width>
       <height>411</height>
@@ -385,10 +448,14 @@
     </property>
     <property name="font">
      <font>
-      <family>Montserrat</family>
+      <family>Segoe UI</family>
       <pointsize>12</pointsize>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(52, 73, 94);
+border-color: rgb(236, 240, 241);</string>
     </property>
     <attribute name="horizontalHeaderDefaultSectionSize">
      <number>144</number>
@@ -397,17 +464,29 @@
      <property name="text">
       <string>Xᵢ</string>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
     </column>
     <column>
      <property name="text">
       <string>f₍ₓ₎</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
      </property>
     </column>
    </widget>
    <widget class="QLabel" name="lblPrimeraDerivadaAtras">
     <property name="geometry">
      <rect>
-      <x>450</x>
+      <x>490</x>
       <y>200</y>
       <width>521</width>
       <height>31</height>
@@ -420,6 +499,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(26, 188, 156);</string>
+    </property>
     <property name="text">
      <string>[Resultado]</string>
     </property>
@@ -427,7 +509,7 @@
    <widget class="QLabel" name="lblPrimeraDerivadaCentro">
     <property name="geometry">
      <rect>
-      <x>450</x>
+      <x>490</x>
       <y>230</y>
       <width>521</width>
       <height>31</height>
@@ -440,6 +522,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(26, 188, 156);</string>
+    </property>
     <property name="text">
      <string>[Resultado]</string>
     </property>
@@ -447,7 +532,7 @@
    <widget class="QLabel" name="lblPrimeraDerivadaAdelante">
     <property name="geometry">
      <rect>
-      <x>450</x>
+      <x>490</x>
       <y>260</y>
       <width>521</width>
       <height>31</height>
@@ -460,6 +545,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(26, 188, 156);</string>
+    </property>
     <property name="text">
      <string>[Resultado]</string>
     </property>
@@ -467,7 +555,7 @@
    <widget class="QLabel" name="lblSegundaDerivadaAtras">
     <property name="geometry">
      <rect>
-      <x>450</x>
+      <x>490</x>
       <y>300</y>
       <width>521</width>
       <height>31</height>
@@ -480,6 +568,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(26, 188, 156);</string>
+    </property>
     <property name="text">
      <string>[Resultado]</string>
     </property>
@@ -487,7 +578,7 @@
    <widget class="QLabel" name="lblSegundaDerivadaCentro">
     <property name="geometry">
      <rect>
-      <x>450</x>
+      <x>490</x>
       <y>330</y>
       <width>521</width>
       <height>31</height>
@@ -500,6 +591,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(26, 188, 156);</string>
+    </property>
     <property name="text">
      <string>[Resultado]</string>
     </property>
@@ -507,7 +601,7 @@
    <widget class="QLabel" name="lblSegundaDerivadaAdelante">
     <property name="geometry">
      <rect>
-      <x>450</x>
+      <x>490</x>
       <y>360</y>
       <width>521</width>
       <height>31</height>
@@ -520,6 +614,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(26, 188, 156);</string>
+    </property>
     <property name="text">
      <string>[Resultado]</string>
     </property>
@@ -527,7 +624,7 @@
    <widget class="QLabel" name="lblTerceraDerivadaAtras">
     <property name="geometry">
      <rect>
-      <x>450</x>
+      <x>490</x>
       <y>400</y>
       <width>521</width>
       <height>31</height>
@@ -540,6 +637,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(26, 188, 156);</string>
+    </property>
     <property name="text">
      <string>[Resultado]</string>
     </property>
@@ -547,7 +647,7 @@
    <widget class="QLabel" name="lblTerceraDerivadaCentro">
     <property name="geometry">
      <rect>
-      <x>450</x>
+      <x>490</x>
       <y>430</y>
       <width>521</width>
       <height>31</height>
@@ -560,6 +660,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(26, 188, 156);</string>
+    </property>
     <property name="text">
      <string>[Resultado]</string>
     </property>
@@ -567,7 +670,7 @@
    <widget class="QLabel" name="lblTerceraDerivadaAdelante">
     <property name="geometry">
      <rect>
-      <x>450</x>
+      <x>490</x>
       <y>460</y>
       <width>521</width>
       <height>31</height>
@@ -580,6 +683,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(26, 188, 156);</string>
+    </property>
     <property name="text">
      <string>[Resultado]</string>
     </property>
@@ -587,7 +693,7 @@
    <widget class="QLabel" name="lblCuartaDerivadaAtras">
     <property name="geometry">
      <rect>
-      <x>450</x>
+      <x>490</x>
       <y>500</y>
       <width>521</width>
       <height>31</height>
@@ -600,6 +706,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(26, 188, 156);</string>
+    </property>
     <property name="text">
      <string>[Resultado]</string>
     </property>
@@ -607,7 +716,7 @@
    <widget class="QLabel" name="lblCuartaDerivadaCentro">
     <property name="geometry">
      <rect>
-      <x>450</x>
+      <x>490</x>
       <y>530</y>
       <width>521</width>
       <height>31</height>
@@ -620,6 +729,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(26, 188, 156);</string>
+    </property>
     <property name="text">
      <string>[Resultado]</string>
     </property>
@@ -627,7 +739,7 @@
    <widget class="QLabel" name="lblCuartaDerivadaAdelante">
     <property name="geometry">
      <rect>
-      <x>450</x>
+      <x>490</x>
       <y>560</y>
       <width>521</width>
       <height>31</height>
@@ -640,6 +752,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(26, 188, 156);</string>
+    </property>
     <property name="text">
      <string>[Resultado]</string>
     </property>
@@ -647,14 +762,62 @@
    <widget class="QPushButton" name="btnCalcularDerivadas">
     <property name="geometry">
      <rect>
-      <x>520</x>
-      <y>40</y>
+      <x>480</x>
+      <y>60</y>
       <width>151</width>
       <height>51</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(39, 174, 96);
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+</string>
+    </property>
     <property name="text">
      <string>Calcular derivadas</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>20</y>
+      <width>191</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>e^x = exp(x)</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>200</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(95, 95, 95);</string>
+    </property>
+    <property name="text">
+     <string>Info</string>
     </property>
    </widget>
   </widget>
