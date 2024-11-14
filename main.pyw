@@ -42,7 +42,7 @@ class MetodosNumericos(QMainWindow):
     def validar_funcion(self,funcion):
         try:  
             x = 1
-            eval(funcion, {"x": x, "sin": math.sin, "cos": math.cos, "log": math.log, "e": math.e, "pi": math.pi}) 
+            eval(funcion, {"x": x, "sin": math.sin, "cos": math.cos, "tan": math.tan, "log": math.log, "e": math.e, "pi": math.pi, "sinh": math.sinh, "cosh": math.cosh, "tanh": math.tanh, "asin": math.asin, "asinh": math.asinh, "acos": math.acos, "acosh": math.acosh, "atan": math.atan, "atanh": math.atanh}) 
             return True
         except (SyntaxError, NameError, TypeError, ValueError):
             return False
@@ -70,10 +70,14 @@ class MetodosNumericos(QMainWindow):
                 fxi.append([0])
             
             for i in range(-5, 6):
-                xi[i + 5] = round(x + i * h, 4)  
+                xi[i + 5] = round(x + i * h, 4)
             
             for i in range(11):
-                 fxi[i] = round(eval(funcion, {"x": xi[i], "sin": math.sin, "cos": math.cos, "tan": math.tan, "log": math.log, "e": math.e, "pi": math.pi}), 4)  
+                try:
+                    fxi[i] = round(eval(funcion, {"x": xi[i], "sin": math.sin, "cos": math.cos, "tan": math.tan, "log": math.log, "e": math.e, "pi": math.pi, "sinh": math.sinh, "cosh": math.cosh, "tanh": math.tanh, "asin": math.asin, "asinh": math.asinh, "acos": math.acos, "acosh": math.acosh, "atan": math.atan, "atanh": math.atanh}), 4) 
+                except ValueError:
+                    self.advertencia("Tenga en cuenta el dominio de la función que ha ingresado")
+                    break
             
             self.ui.tableWidget.setColumnCount(2)
             self.ui.tableWidget.setHorizontalHeaderLabels(["Xi", "Fxi"])
